@@ -1,0 +1,127 @@
+body{
+    background-color: #EDD263;
+    color: #3B2D64;
+}
+
+.navbar-brand{
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.nav-link{
+    font-weight: 700;
+}
+
+.search-box{
+    width: 60%;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-search{
+    padding: 10px 30px;
+    background-color: #473679;
+    color: #fff;
+    font-weight: 700;
+}
+.btn-search:hover{
+    background-color: #302452;
+    color: #fff;
+}
+
+
+.single-meal{
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+.meal-img{
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.card{
+    border:none;
+}
+.single-meal a{
+    color: #000;
+    text-decoration: none;
+}
+.single-meal a:hover{
+    text-decoration: underline;
+}
+  
+
+.detailed-meal-info{
+    width: 60%;
+    /* text-align:center; */
+    margin-left: auto;
+    margin-right: auto;
+}
+.detailed-meal-info .card{
+    padding: 0 30px !important;
+}
+
+
+/* Styles for List item */
+.meal-details ul{
+    padding-left: 0px;
+}
+.meal-details ul li{
+	font-size: 16px;
+	margin-bottom: 1em;
+	list-style-type: none;
+	padding: .25em 0 0 2.5em;
+	position: relative;
+}
+.meal-details ul li:before{
+		content: " ";
+		display: block;
+		border: solid .8em #473679;
+		border-radius: 5px;
+		height: 0;
+		width: 0;
+		position: absolute;
+		left: .2em;
+		top: 40%;
+		margin-top: -.5em;
+}
+.meal-details ul li:after{
+		content: " ";
+		display: block;
+		width: .3em;
+		height: .6em;
+		border: solid #fff;
+		border-width: 0 .2em .2em 0;
+		position: absolute;
+		left: 13px;
+		top: 13px;
+		margin-top: -.2em;
+		-webkit-transform: rotate(45deg);
+		-moz-transform: rotate(45deg);
+		-o-transform: rotate(45deg);
+		transform: rotate(45deg);
+}
+
+
+footer{
+    margin-top: 50px;
+}
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+    
+    .btn-search{
+        padding: 10px 8px;
+        background-color: #473679;
+        color: #fff;
+        font-weight: 700;
+    }
+    .detailed-meal-info{
+        width: 90%;
+    }
+}
